@@ -1,5 +1,4 @@
 .picture1 {
-    idth: 300x;
     height: 300px;
     margin: 5px;
 }
@@ -22,3 +21,43 @@
 #box {
     padding-right: 25px;
 }
+
+.card-img-top{
+    height: 191px;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+  }
+  
+  div {
+    font-family: myFirstFont;
+  }
+
+  .container {
+ flex-direction: row; 
+ flex-grow: inherit; 
+ display: inline-block; 
+ display: inline;     
+ /* width: 50%; */
+  /* text-align: center;  */
+  padding-right: 40px;
+  padding-left: 40px;
+  }
+ 
+  #video {
+      display: inline-block; 
+      border-style: solid; color: white;
+      border-width: 20px 40px 20px 40px;
+      padding: 20px;
+    
+  }
+
+  #form1 {
+    display: inline-block; 
+    border-style: solid; color: white;
+    border-width: 20px 40px 20px 40px;
+    padding: 20px;
+  }
+]
